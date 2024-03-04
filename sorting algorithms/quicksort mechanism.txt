@@ -1,0 +1,49 @@
+Quick Sort:
+Definition: Quick Sort is a highly efficient sorting algorithm based 
+on the divide-and-conquer technique. It selects a 'pivot' element from 
+the list and partitions the other elements into two sublists according 
+to whether they are less than or greater than the pivot.
+
+
+Procedure:
+
+Choose a pivot element from the list.
+Partition the list such that all elements less than the pivot 
+are on its left, and all elements greater than the pivot are on its right.
+Recursively apply the same process to the sublists until the entire list is sorted.
+
+
+Important Points:
+
+Quick Sort has an average-case time complexity of O(n log n), making it one of the fastest sorting algorithms.
+It can degrade to O(n^2) in the worst-case scenario, but this is rare with proper pivot selection strategies.
+Quick Sort is not a stable sorting algorithm.
+
+
+Source Code with Explanation:
+
+
+
+def quick_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    pivot = arr[len(arr) // 2]  # Choose the middle element as pivot
+    left = [x for x in arr if x < pivot]
+    middle = [x for x in arr if x == pivot]
+    right = [x for x in arr if x > pivot]
+    return quick_sort(left) + middle + quick_sort(right)
+
+# Example usage:
+if __name__ == "__main__":
+    arr = [64, 25, 12, 22, 11]
+    print("Original array:", arr)
+    sorted_arr = quick_sort(arr)
+    print("Sorted array:", sorted_arr)
+
+
+
+
+
+
+
+

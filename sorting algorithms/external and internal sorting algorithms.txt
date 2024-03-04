@@ -1,0 +1,49 @@
+internal and external
+
+===============================
+
+
+Internal and external sorting algorithms are classified based on how they 
+handle the data being sorted with respect to the available memory. 
+Internal sorting algorithms process the entire dataset within the main memory (RAM),
+
+ while external sorting algorithms are designed to handle datasets that are too large to 
+fit entirely in memory and require the use of external storage such as disk.
+
+
+
+insternal
+---------
+
+Bubble Sort
+Selection Sort
+Insertion Sort
+Merge Sort
+Quick Sort
+Heap Sort
+Radix Sort
+Counting Sort
+Bucket Sort
+Shell Sort
+Cocktail Shaker Sort
+Comb Sort
+Gnome Sort
+Pancake Sort
+IntroSort
+Timsort
+
+
+
+External
+------------
+
+External Merge Sort
+Polyphase Merge Sort
+Replacement Selection
+Batcher's Sort
+Tournament Sort
+Distribution Sort
+K-Way Merge Sort
+Cascade Merge Sort
+External Radix Sort
+External Quick Sort

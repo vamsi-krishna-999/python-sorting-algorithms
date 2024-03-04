@@ -1,0 +1,12 @@
+Algorithm,Type,Time Complexity (average),Time Complexity (worst-case),Space Complexity,Stability
+Bubble Sort,Internal,O(n^2),O(n^2),O(1),Stable
+Selection Sort,Internal,O(n^2),O(n^2),O(1),Unstable
+Insertion Sort,Internal,O(n^2),O(n^2),O(1),Stable
+Merge Sort,Internal,O(n log n),O(n log n),O(n),Stable
+Quick Sort,Internal,O(n log n),O(n^2),O(log n),Unstable
+Heap Sort,Internal,O(n log n),O(n log n),O(1),Unstable
+Radix Sort,Internal,O(n * k),O(n * k),O(n + k),Stable
+External Merge Sort,External,O(n log n),O(n log n),O(n),Stable
+Polyphase Merge Sort,External,O(n log n),O(n log n),O(n),Stable
+Batcher's Sort,External,O(n log^2 n),O(n log^2 n),O(n),Stable
+Replacement Selection,External,O(n log n),O(n log n),O(m),Stable
